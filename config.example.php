@@ -5,7 +5,7 @@ define('PRESERVE_EMPTY_PROVIDERS',false);
 
 // The total number of nodes to use in a bombing action. Set to INF to use all nodes.
 // 一次轰炸时所用的最大接口节点数量，设置为INF表示不限制
-define('USE_NODES_COUNT',5000);
+define('USE_NODES_COUNT',INF);
 
 // The count of http connection threads to use in a bombing action. Ensure it suits your network environment.
 // 轰炸时HTTP最大并发连接数，确保数值适合您的网络环境
